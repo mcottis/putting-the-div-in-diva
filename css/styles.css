@@ -19,12 +19,12 @@ h2 {
   font-size: 2.5em;
   color:red;
 }
-img {
+/* img {
   display: flex;
   padding: 10px;
   margin: 0 auto;
   border-radius: 100px;
-}
+} */
 p {
   width: 40%;
   margin: 1.5vh 30vw;
