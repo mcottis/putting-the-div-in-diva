@@ -2,6 +2,7 @@ body {
   color: black;
   font-family: calibri;
   margin: 10px;
+  padding: 60px 0px;
 }
 div {
   min-height: 10vh;
@@ -80,6 +81,7 @@ div.container {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+>>>>>>> 939e8f223a6d641db7e0b9b06ca93847cffd3c74
 }
 
 html{
