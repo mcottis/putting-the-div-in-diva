@@ -6,21 +6,21 @@
       <!-- Our CSS -->
       <link rel="stylesheet" type="text/css" href="css/template.css">
 
-
       <!-- BOOTSTRAP CORE -->
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
       <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-      <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
-      <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
       <!------ Include the above in your HEAD tag ---------->
 
   </head>
 
 <body>
 
+<!-- Navigation -->
+
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-  <a class="navbar-brand">Women in technology</a>
+  <img class="logo" alt="Women in technology logo" src="images/logo.jpg">
+  <!-- <a class="navbar-brand">Women in technology</a> -->
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -45,9 +45,10 @@
   </div>
 </nav>
 
-<main role="main">
 
-  <!-- Main jumbotron for a primary marketing message or call to action -->
+<main role="main">
+  <!-- Main banner -->
+
   <div class="jumbotron">
     <div class="container">
       <h1 class="display-3">Hello, world!</h1>
@@ -56,6 +57,7 @@
     </div>
   </div>
 
+<!-- 3x Column 4 -->
   <div class="container">
     <!-- Example row of columns -->
     <div class="row">
@@ -79,12 +81,28 @@
     <hr>
 
   </div> <!-- /container -->
-
 </main>
 
-<footer class="container">
-  <p>&copy; Company 2017-{{ site.time | date: "%Y" }}</p>
+<!-- Footer content -->
+
+<footer>
+    <!-- Social links -->
+  <div class="footer-social">
+
+    <a href="https://www.facebook.com" target="_blank" class="fa fa-facebook"><img src="images/facebook-logo.png"></a>
+    <a href="https://www.twitter.com" target="_blank" class="fa fa-twitter"><img src="images/twitter-logo.png"></a>
+    <a href="https://www.instagram.com" target="_blank" class="fa fa-instagram"><img src="images/instagram-logo.png"></a>
+
+  </div>
 </footer>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+<script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js"></script>
+<script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js"></script>
 
 </body>
 </html>
