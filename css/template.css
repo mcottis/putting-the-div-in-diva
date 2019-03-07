@@ -2,3 +2,17 @@
 body {
   padding-top: 3.5rem;
 }
+
+/* Navigation */
+
+.logo {
+  height: 40px;
+}
+
+
+/* Footer */
+
+.footer-social {
+  align-content: center;
+
+}
