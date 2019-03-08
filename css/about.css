@@ -22,7 +22,6 @@ h2 {
 }
 
 img {
-  display: flex;
   padding: 10px;
   margin: 0 auto;
   border-radius: 100px;
@@ -99,10 +98,11 @@ li:hover {
     top: 95%;
 }
 
-.carousel-inner{
+.carousel-inner {
   width:100%;
-  max-height: 70% !important;
+  height: 330px !important;
 }
+
 
 html{
     height: 100%;
@@ -116,41 +116,14 @@ body{
     height: 100%;
 }
 
-.footer {
-  position:absolute
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: grey;
-  color: white;
-  text-align: center;
-  top: 1000px
+/* Footer */
+.footer-social {
+  align-content: center;
+}
+.footer-social img {
+  height: 60px;
 }
 
-/* Style all font awesome icons */
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-}
-
-/* Add a hover effect if you want */
-.fa:hover {
-  opacity: 0.7;
-}
-
-/* Set a specific color for each brand */
-
-/* Facebook */
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-
-/* Twitter */
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
+.footer-social p {
+    text-align: center;
 }
