@@ -16,35 +16,46 @@
 
 <body>
 
-<!-- Navigation -->
+<!-- Navigation copy from here. Add in CSS links if your page doesn't already have them -->
 
-<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-  <img class="logo" alt="Women in technology logo" src="images/logo.jpg">
-  <!-- <a class="navbar-brand">Women in technology</a> -->
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+<div class="row justify-content-between">
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
 
-  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="meetups.html">Meet ups</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="events.html">Events</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="about.html">About</a>
-      </li>
 
-    </ul>
+    <div class="col-sm-6 col-md-4">
 
-  </div>
-</nav>
+      <img class="logo" alt="Women in technology logo" src="images/logo.svg">
 
+    </div>
+
+    <div class="col-sm-6 col-md-8 women-nav">
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="meetups.html">Meet ups</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="events.html">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+
+    </nav>
+</div>
+<!-- to here -->
 
 <main role="main">
   <!-- Main banner -->
@@ -53,7 +64,7 @@
     <div class="container">
       <h1 class="display-3">Hello, world!</h1>
       <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-      <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+      <!-- <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p> -->
     </div>
   </div>
 
@@ -83,16 +94,21 @@
   </div> <!-- /container -->
 </main>
 
-<!-- Footer content -->
+<!-- Footer copy from here, including the scripts -->
 
 <footer>
     <!-- Social links -->
-  <div class="footer-social">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 footer-social">
+          <p>
 
-    <a href="https://www.facebook.com" target="_blank" class="fa fa-facebook"><img src="images/facebook-logo.png"></a>
-    <a href="https://www.twitter.com" target="_blank" class="fa fa-twitter"><img src="images/twitter-logo.png"></a>
-    <a href="https://www.instagram.com" target="_blank" class="fa fa-instagram"><img src="images/instagram-logo.png"></a>
-
+          <a href="https://www.facebook.com" target="_blank" class="fa fa-facebook"><img src="images/facebook-logo.png"></a>
+          <a href="https://www.twitter.com" target="_blank" class="fa fa-twitter"><img src="images/twitter-logo.png"></a>
+          <a href="https://www.instagram.com" target="_blank" class="fa fa-instagram"><img src="images/instagram-logo.png"></a>
+        </p>
+        </div>
+      </div>
   </div>
 </footer>
 

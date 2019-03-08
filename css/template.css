@@ -5,14 +5,23 @@ body {
 
 /* Navigation */
 
-.logo {
-  height: 40px;
+
+.women-nav {
+  float: right;
 }
 
+/* Banner */
+
+/* Page content */
 
 /* Footer */
-
 .footer-social {
   align-content: center;
+}
+.footer-social img {
+  height: 60px;
+}
 
+.footer-social p {
+    text-align: center;
 }
