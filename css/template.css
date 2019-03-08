@@ -3,9 +3,17 @@ body {
   padding-top: 3.5rem;
 }
 
+/* Main styles */
+
+h1, h2, h3, h4, h5, h6, p, li, ul, ol, blockquote, table, a {
+  font-family: gill-sans-nova, Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+
+/* Event page styles */
+
+
 /* Navigation */
-
-
 
 .women-nav {
   text-align: right;
