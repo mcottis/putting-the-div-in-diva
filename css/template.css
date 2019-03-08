@@ -6,8 +6,9 @@ body {
 /* Navigation */
 
 
+
 .women-nav {
-  float: right;
+  text-align: right;
 }
 
 /* Banner */
@@ -24,4 +25,18 @@ body {
 
 .footer-social p {
     text-align: center;
+}
+
+
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 575px)
+{
+
+  .women-nav {
+    text-align: center;
+    margin-top: 10px;
+  }
+
 }
