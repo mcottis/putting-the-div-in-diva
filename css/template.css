@@ -9,14 +9,31 @@ body {
   padding-top: 3.5rem;
 }
 
-
-
 /* Navigation */
 .women-nav {
   text-align: right;
 }
 
+/*About Page Divs */
+.carouselExampleIndicators {
+  width: 100%;
+  height: 20%;
+}
 
+.carousel-inner {
+  width:100%;
+  height: 20%;
+}
+
+.aboutus {
+  padding-top: 6rem;
+  text-align: center;
+}
+
+.calltoaction {
+  position: absolute;
+    top: 95%;
+}
 
 
 
