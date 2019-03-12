@@ -26,18 +26,23 @@ img {
 
 .carousel-inner {
   width:100%;
-  height: 550px;
+  height: 400px;
 }
 
 .aboutus {
-  padding-top: 7rem;
+  padding-top: 2rem;
   padding-left: 5rem;
   div-align: center;
 }
 
+.meetteam {
+  padding-top: 2rem;
+  padding-left: 5rem;
+  div-align: center;
+  }
 
 .team {
-  padding-top: 6.1rem;
+  padding-top: 3rem;
   padding-bottom: 4rem;
   text-align: center;
 }
