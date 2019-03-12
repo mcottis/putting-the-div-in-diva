@@ -10,9 +10,9 @@
   }
 }
 
-.jumbotron p:last-child {
+/* .jumbotron p:last-child {
   margin-bottom: 0;
-}
+} */
 
 .jumbotron-heading {
   font-weight: 300;
@@ -30,7 +30,7 @@ footer {
 footer p {
   margin-bottom: .25rem;
 }
-/* 
+/*
 .image {
   width: 300px;
   height: 300px;
