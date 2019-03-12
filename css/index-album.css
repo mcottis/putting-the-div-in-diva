@@ -18,6 +18,10 @@
   font-weight: 300;
 }
 
+#section-heading {
+  padding-bottom: 0.5rem;
+}
+
 .jumbotron .container {
   max-width: 40rem;
 }
