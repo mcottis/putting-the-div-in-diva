@@ -80,6 +80,11 @@ img {
 .navbar {
  width: 100%;
 }
+
+.event-nav {
+  margin-bottom: 0px;
+}
+
 .event-list {
 list-style: none;
 margin: 0px;
