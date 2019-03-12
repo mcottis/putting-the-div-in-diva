@@ -35,9 +35,14 @@ img {
   div-align: center;
 }
 
+.meetteam {
+  padding-top: 2rem;
+  padding-left: 5rem;
+  div-align: center;
+  }
 
 .team {
-  padding-top: 6.1rem;
+  padding-top: 3rem;
   padding-bottom: 4rem;
   text-align: center;
 }
