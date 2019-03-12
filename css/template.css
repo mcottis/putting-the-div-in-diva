@@ -26,11 +26,11 @@ img {
 
 .carousel-inner {
   width:100%;
-  height: 550px;
+  height: 400px;
 }
 
 .aboutus {
-  padding-top: 7rem;
+  padding-top: 2rem;
   padding-left: 5rem;
   div-align: center;
 }
