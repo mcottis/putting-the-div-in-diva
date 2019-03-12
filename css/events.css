@@ -161,3 +161,15 @@
   time.icon > .ppast{
     color: #726E6D;
   }
+
+  /* Footer */
+  .footer-social {
+    align-content: center;
+  }
+  .footer-social img {
+    height: 60px;
+  }
+
+  .footer-social p {
+      text-align: center;
+  }
