@@ -1,6 +1,6 @@
 /* Main styles */
 h1, h2, h3, h4, h5, h6, p, li, ul, ol, blockquote, table, a {
-  font-family: gill-sans-nova, Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
 }
 
@@ -70,7 +70,7 @@ img {
 }
 
 .event-banner p, .event-banner h1 {
-  color: #fff;
+  color: #fff !important;
 }
 
 .event-list {
