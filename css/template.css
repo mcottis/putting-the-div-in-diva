@@ -82,7 +82,7 @@ img {
 }
 
 .event-nav {
-  position: absolute;
+  position: absolute !important;
 }
 
 .event-list {
