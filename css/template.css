@@ -72,7 +72,9 @@ img {
 .event-banner p, .event-banner h1 {
   color: #fff !important;
 }
-
+.navbar {
+ width: 100%;
+}
 .event-list {
 list-style: none;
 margin: 0px;
